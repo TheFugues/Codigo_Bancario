@@ -37,7 +37,7 @@ while True:
               excedeu_saques = numero_saques >= LIMITE_SAQUES
 
               if excedeu_saldo:
-                    print("Operaçãoo falhou! Você não tem saldo suficiente.")
+                    print("Operação falhou! Você não tem saldo suficiente.")
 
               elif excedeu_limite:
                     print("Operação falhou! O valor do saque execede o limite.")
@@ -62,3 +62,4 @@ while True:
         
         else:
               print("Operação inválida, por fvor selecione novamente a opção desejada.")
+
